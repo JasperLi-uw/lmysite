@@ -1,0 +1,424 @@
+body {
+  text-align: center;
+  background-color: rgb(255, 255, 243);
+}
+
+.header {
+  margin-top: 15px;
+}
+
+.dev-name {
+  font-size: 60px;
+}
+
+.intro {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color: #999e6f;
+}
+
+.nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.nav-item a {
+  font-size: 25px;
+  color: #5a5955;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.pic-container {
+  /*
+  height:75%; 
+  width:90%; 
+  margin:0 auto; 
+  overflow:hidden;
+  */
+}
+
+.pic {
+  /*
+  -ms-transform: rotate(270deg); 
+  -webkit-transform: rotate(270deg);  
+  transform: rotate(270deg);
+  */
+  width: 90%;
+}
+
+.quote {
+  text-align: right;
+  margin-right: 70px;
+  margin-bottom: 15px;
+  font-family: Rubik;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 17px;
+  color: rgb(29, 29, 29, .7);
+  letter-spacing: .08em;
+}
+
+.quote p {
+  font-size: 28px;
+}
+
+.profile {
+  margin: -20px auto;
+  margin-bottom: 20px;
+  height: 572px;
+  width: 90%;
+  background-color: #f4f5f0;
+}
+
+.profile-title {
+  color: #565655;
+  font-size: 41px;
+  padding-top: 25px;
+}
+
+.profile-main {
+  margin-top: -28px;
+}
+
+.profile-avatar {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: hidden;
+  float: left;
+  height: 274px;
+  width: 25%;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+.profile-intro {
+  color: #5d5d5d;
+  font-size: 25px;
+  text-align: left;
+  float: left;
+  height: 400px;
+  width: 60%;
+}
+
+.skills {
+  margin-top: 68px;
+  margin: 50px auto;
+  width: 90%;
+  height: 600px;
+}
+
+.skills-title {
+  color: #565655;
+  font-size: 41px;
+  padding-top: 25px;
+  margin-bottom: 70px;
+}
+
+.frontend {
+  width: 100%;
+  height: 20%;
+}
+
+.frontend-square {
+  margin-right: 3%;
+  margin-left: 28%;
+  float: left;
+  background-color: #265d4a;
+  width: 12%;
+  height: 100%;
+}
+
+.frontend-desc {
+  padding-left: 6px;
+  border-left: 1px solid;
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-size: 22px;
+  font-family: Rubik;
+  color: #666d2e;
+}
+
+.backend {
+  width: 100%;
+  height: 20%;
+}
+
+.backend-square {
+  margin-right: 3%;
+  margin-left: 28%;
+  float: left;
+  background-color: #265d4a;
+  width: 12%;
+  height: 100%;
+}
+
+.backend-desc {
+  padding-left: 6px;
+  border-left: 1px solid;
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-size: 22px;
+  font-family: Rubik;
+  color: #666d2e;
+}
+
+.data {
+  width: 100%;
+  height: 20%;
+}
+
+.data-square {
+  margin-right: 3%;
+  margin-left: 28%;
+  float: left;
+  background-color: #265d4a;
+  width: 12%;
+  height: 100%;
+}
+
+.data-desc {
+  padding-left: 6px;
+  border-left: 1px solid;
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-size: 22px;
+  font-family: Rubik;
+  color: #666d2e;
+}
+
+.projects {
+  margin: 50px auto;
+  width: 90%;
+  height: 600px;
+}
+
+.projects-title {
+  color: #565655;
+  font-size: 41px;
+  padding-top: 25px;
+  margin-bottom: 45px;
+}
+
+.project {
+  margin-bottom: 32px;
+  background-color: bisque;
+  width: 90%;
+  height: 30%;
+  margin: 40px auto;
+}
+
+.education {
+  margin: 50px auto;
+  width: 90%;
+  height: 325px;
+  background-color: #f4f5f0;
+}
+
+.education-title {
+  color: #565655;
+  font-size: 41px;
+  padding-top: 25px;
+}
+
+.school {
+  height: 200px;
+  width: 90%;
+}
+
+.logo {
+  margin-left: 10%;
+  overflow: hidden;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+
+.school-title {
+  float: left;
+  height: 200px;
+  width: 70%;
+}
+
+.program-name {
+  font-weight: 700;
+  font-size: 26px;
+  margin: 1px;
+  color: #5d5d5d;
+}
+
+.school-name {
+  margin: 4px;
+  font-size: 27px;
+  color: #716565;
+}
+
+.date-gpa {
+  margin: 2px;
+  font-size: 20px;
+  color: #615e5e;
+}
+
+.contact-me {
+  height: 600px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.contact-title {
+  color: #565655;
+  font-size: 41px;
+  padding-top: 25px;
+}
+
+.form {
+  font-family: Rubik !important;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: .12em;
+}
+
+.name-field {
+  width: 94%;
+  height: 80px;
+  margin: auto;
+}
+
+.name-field span {
+  font-size: 23px;
+  font-family: Rubik;
+  font-weight: 300px;
+}
+
+.name-field input {
+  margin-top: 3px;
+  width: 94%;
+  border: 1px solid #84ad62;
+  border-radius: 5px;
+  padding: 6px 6px;
+  font-family: "Microsoft soft";
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 21px;
+  background: none;
+}
+
+.name-container {
+  width: 100%;
+}
+
+.first-name {
+  width: 50%;
+  float: left;
+}
+
+.last-name {
+  width: 50%;
+  float: left;
+}
+
+.email-field {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.email-field span {
+  font-size: 23px;
+  font-family: Rubik;
+  font-weight: 300px;
+}
+
+.email-field input {
+  margin-top: 3px;
+  width: 100%;
+  border: 1px solid #84ad62;
+  border-radius: 5px;
+  padding: 6px 6px;
+  font-family: "Microsoft soft";
+  font-size: 23px;
+  font-weight: 500;
+  background: none;
+}
+
+.phone-field {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.phone-field span {
+  font-size: 23px;
+  font-family: Rubik;
+  font-weight: 300px;
+}
+
+.phone-field input {
+  margin-top: 3px;
+  width: 100%;
+  border: 1px solid #84ad62;
+  border-radius: 5px;
+  padding: 6px 6px;
+  font-family: "Microsoft soft";
+  font-size: 23px;
+  font-weight: 500;
+  background: none;
+}
+
+.message {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.message span {
+  font-size: 23px;
+  font-family: Rubik;
+  font-weight: 300px;
+}
+
+.message textarea {
+  margin-top: 3px;
+  width: 100%;
+  border: 1px solid #84ad62;
+  border-radius: 5px;
+  padding: 6px 6px;
+  font-family: "Microsoft soft";
+  font-size: 23px;
+  font-weight: 500;
+  background: none;
+}
+
+.btn-container {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  font-size: 23px;
+  font-family: Rubik;
+  font-weight: 300;
+  padding: 7px 22px;
+  border: 1px solid #84ad62;
+  background: none;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+.blank {
+  width: 100%;
+  height: 2px;
+}
